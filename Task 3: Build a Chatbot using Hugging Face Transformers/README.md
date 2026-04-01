@@ -37,6 +37,9 @@ Chatbot: Hello! I am your AI assistant. How can I help you today?
 You: Hello  
 Chatbot: Hello! Nice to meet you. How can I assist you today?  
 
+<img width="1683" height="706" alt="Screenshot 2026-04-01 135409" src="https://github.com/user-attachments/assets/27d698df-a9a0-4908-a207-11415270d46d" />
+
+
 ---
 
 ## ⚠️ Limitations
@@ -57,4 +60,4 @@ A hybrid approach combining predefined responses and transformer-generated outpu
 ---
 
 ## 🔗 Author
-Your Name
+Tejasri
