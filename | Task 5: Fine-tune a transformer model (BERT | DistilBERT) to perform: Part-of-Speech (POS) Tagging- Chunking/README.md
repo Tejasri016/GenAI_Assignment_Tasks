@@ -66,3 +66,61 @@ A **custom dataset** was created manually for POS tagging due to compatibility i
 ## 🔍 Inference Example
 
 **Input:**
+John works at Google in California
+
+**Output:**
+John → NOUN
+works → VERB
+at → ADP
+Google → NOUN
+in → ADP
+California → NOUN
+
+
+---
+
+## 🔄 Comparison: POS Tagging vs Chunking
+
+| Aspect | POS Tagging | Chunking |
+|-------|-------------|----------|
+| Level | Word-level | Phrase-level |
+| Complexity | Easy | Moderate |
+| Output | Grammar tags | Phrases |
+
+---
+
+## ⚠️ Challenges Faced
+- Dataset compatibility issues with latest Hugging Face versions
+- Handling subword tokenization
+- Label alignment using `-100`
+- Padding variable-length sequences
+- GPU/CPU device mismatch errors
+
+---
+
+## 📈 Observations
+- BERT performs effectively for token classification tasks
+- POS tagging is simpler compared to chunking
+- Performance improves with more data
+
+---
+
+## 🏁 Conclusion
+This project demonstrates how transformer models like BERT can be used for sequence labeling tasks such as POS tagging. The model successfully learned to classify tokens and produced meaningful predictions.
+
+---
+
+## 🚀 Future Improvements
+- Use larger datasets for better accuracy
+- Extend to Chunking (phrase detection)
+- Experiment with DistilBERT for faster training
+
+---
+
+## 🙌 Acknowledgment
+This project was developed as part of an NLP assignment to understand token classification using transformer models.
+
+---
+
+## 🔗 Author
+**Tejasri Somarouthu**
